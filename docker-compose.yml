@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  iot.webapicore:
+    image: ${DOCKER_REGISTRY-}iotwebapicore
+    build:
+      context: .
+      dockerfile: IoT/IoT.WebApiCore/Dockerfile
