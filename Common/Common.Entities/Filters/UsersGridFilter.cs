@@ -11,7 +11,6 @@ namespace Common.Entities
         public string FilterByFirstName { get; set; }
         public string FilterByLastName { get; set; }
         public string FilterByLogin { get; set; }
-        public string FilterByRole { get; set; }
         public string FilterByEmail { get; set; }
         public string FilterByAge { get; set; }
         public string FilterByStates { get; set; }
